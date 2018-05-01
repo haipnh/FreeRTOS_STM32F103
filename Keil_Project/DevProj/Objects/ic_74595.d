@@ -1,0 +1,13 @@
+.\objects\ic_74595.o: ..\PeriphMod_Driver\IC_74595\src\IC_74595.c
+.\objects\ic_74595.o: ..\PeriphMod_Driver\IC_74595\inc\IC_74595.h
+.\objects\ic_74595.o: ..\StdPeriph_Driver\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\objects\ic_74595.o: ..\StdPeriph_Driver\CMSIS\CM3\CoreSupport\core_cm3.h
+.\objects\ic_74595.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ic_74595.o: ..\StdPeriph_Driver\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\objects\ic_74595.o: ..\StdPeriph_Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_conf.h
+.\objects\ic_74595.o: ..\StdPeriph_Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\objects\ic_74595.o: ..\StdPeriph_Driver\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\objects\ic_74595.o: ..\StdPeriph_Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\objects\ic_74595.o: ..\StdPeriph_Driver\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\objects\ic_74595.o: ..\StdPeriph_Driver\DEF_STM32.h
+.\objects\ic_74595.o: ..\PeriphMod_Driver\TIMER_DELAY\inc\TIMER_DELAY.h

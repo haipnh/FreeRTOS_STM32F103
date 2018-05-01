@@ -1,0 +1,13 @@
+.\objects\lcd_20x4.o: ..\PeriphMod_Driver\LCD_20x4\src\LCD_20x4.c
+.\objects\lcd_20x4.o: ..\PeriphMod_Driver\LCD_20x4\inc\LCD_20x4.h
+.\objects\lcd_20x4.o: ..\StdPeriph_Driver\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\objects\lcd_20x4.o: ..\StdPeriph_Driver\CMSIS\CM3\CoreSupport\core_cm3.h
+.\objects\lcd_20x4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\lcd_20x4.o: ..\StdPeriph_Driver\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\objects\lcd_20x4.o: ..\StdPeriph_Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_conf.h
+.\objects\lcd_20x4.o: ..\StdPeriph_Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\objects\lcd_20x4.o: ..\StdPeriph_Driver\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\objects\lcd_20x4.o: ..\StdPeriph_Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\objects\lcd_20x4.o: ..\StdPeriph_Driver\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\objects\lcd_20x4.o: ..\PeriphMod_Driver\TIMER_DELAY\inc\TIMER_DELAY.H
+.\objects\lcd_20x4.o: ..\StdPeriph_Driver\DEF_STM32.h

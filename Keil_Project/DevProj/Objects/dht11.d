@@ -1,0 +1,13 @@
+.\objects\dht11.o: ..\PeriphMod_Driver\DHT11\src\DHT11.c
+.\objects\dht11.o: ..\PeriphMod_Driver\DHT11\inc\DHT11.h
+.\objects\dht11.o: ..\StdPeriph_Driver\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\objects\dht11.o: ..\StdPeriph_Driver\CMSIS\CM3\CoreSupport\core_cm3.h
+.\objects\dht11.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\dht11.o: ..\StdPeriph_Driver\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\objects\dht11.o: ..\StdPeriph_Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_conf.h
+.\objects\dht11.o: ..\StdPeriph_Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\objects\dht11.o: ..\StdPeriph_Driver\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\objects\dht11.o: ..\StdPeriph_Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\objects\dht11.o: ..\StdPeriph_Driver\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\objects\dht11.o: ..\PeriphMod_Driver\TIMER_DELAY\inc\TIMER_DELAY.h
+.\objects\dht11.o: ..\StdPeriph_Driver\DEF_STM32.h
