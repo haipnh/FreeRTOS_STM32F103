@@ -43,8 +43,9 @@ void C13Init(void){
 
 void C13_task(void *ptr){
 		C13Init();	
-		xSemaphoreTake( xSemaphore, ( portTickType ) portMAX_DELAY );//Lay quyen vao mien gang.
+		//xSemaphoreTake( xSemaphore, ( portTickType ) portMAX_DELAY );//Lay quyen vao mien gang.
 		while(1){
+				xSemaphoreTake( xSemaphore, ( portTickType ) portMAX_DELAY );
 				GPIO_WriteBit(GPIOC, GPIO_Pin_13, Bit_RESET);
 				vTaskDelay(500);
 				GPIO_WriteBit(GPIOC, GPIO_Pin_13, Bit_SET);

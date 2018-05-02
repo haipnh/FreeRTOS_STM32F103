@@ -42,10 +42,14 @@ void C13Init(void){
 void C13_taskA(void *ptr){
 		C13Init();
 		while(1){
+				// DOWN
 				xSemaphoreTake( xSemaphoreC13, ( portTickType ) portMAX_DELAY );
+				// CRITICAL-SECTION
 				GPIO_WriteBit(GPIOC, GPIO_Pin_13, Bit_RESET);
 				vTaskDelay(2000);
+				// UP
 				xSemaphoreGive(xSemaphoreC13);
+				// NON CRITICAL-SECTION
 				vTaskDelay(1);
 		}
 		vTaskDelete(NULL);
@@ -54,10 +58,14 @@ void C13_taskA(void *ptr){
 void C13_taskB(void *ptr){
 		C13Init();
 		while(1){
+				// DOWN
 				xSemaphoreTake( xSemaphoreC13, ( portTickType ) portMAX_DELAY );
+				// CRITICAL-SECTION
 				GPIO_WriteBit(GPIOC, GPIO_Pin_13, Bit_SET);
 				vTaskDelay(500);
+				// UP
 				xSemaphoreGive(xSemaphoreC13);
+				// NON CRITICAL-SECTION
 				vTaskDelay(1);
 		}
 		vTaskDelete(NULL);

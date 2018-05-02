@@ -450,7 +450,7 @@ ARM Macro Assembler    Page 7
               00000200 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
-ork --depend=.\objects\stm32f10x.d -o.\objects\stm32f10x.o -I.\RTE\_Button -IC:
+ork --depend=.\objects\stm32f10x.d -o.\objects\stm32f10x.o -I.\RTE\_CntSem -IC:
 \Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include -IC:\Keil_v5\ARM\CMSI
 S\Include --predefine="__UVISION_VERSION SETA 524" --predefine="STM32F10X_MD SE
 
